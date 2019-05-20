@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/9e1481db-c9d9-4127-a6d7-02edc6f7362b/resourceGroups/Hackathon2019-V2/providers/Microsoft.Web/sites/digihackerpushnotification",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": ""
 }

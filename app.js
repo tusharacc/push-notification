@@ -24,6 +24,7 @@ app.use(bodyParser.json())
 webpush.setVapidDetails('mailto:you@domain.com', PUBLIC_VAPID, PRIVATE_VAPID)
 
 app.post('/subscription', (req, res) => {
+  console.log('Subscription',req.body);
   const subscription = req.body
   fakeDatabase.push(subscription)
 })
