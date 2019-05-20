@@ -1,0 +1,26 @@
+{
+    "name": "health-monitor-server",
+    "version": "1.0.0",
+    "description": "health monitor server app ",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Sri",
+    "license": "Chubb",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.0",
+        "http": "0.0.0",
+        "web-push": "^3.3.5"
+    }
+}
