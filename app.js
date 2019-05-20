@@ -12,7 +12,13 @@ const fakeDatabase = []
 
 const app = express()
 
-app.use(cors())
+var corsOptions = {
+  origin: 'https://digihackerwebapp.azurewebsites.net/',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+
+app.use(cors(corsOptions))
 app.use(bodyParser.json())
 
 webpush.setVapidDetails('mailto:you@domain.com', PUBLIC_VAPID, PRIVATE_VAPID)
